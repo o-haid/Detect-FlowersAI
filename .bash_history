@@ -14,3 +14,8 @@ git push -u origin main
 git remote add origin https://github.com/o-haid/Detect-FlowersAI
 git push -u origin main
 git remote set-url origin https://github.com/o-haid/Detect-FlowersAI
+git add .
+git commit -m "start"
+git push -u origin main
+git push -u origin main
+git push -u origin main
