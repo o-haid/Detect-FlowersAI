@@ -1,0 +1,212 @@
+[model-proxy] Listening on 127.0.0.1:18790, upstream=https://lightning.ai/api/v1
+[model-proxy] Allowed models: anthropic/claude-opus-4-6, anthropic/claude-sonnet-4-6, google/gemini-3-flash-preview, google/gemini-3.1-pro-preview, lightning-ai/glm-5, lightning-ai/kimi-k2.5, lightning-ai/minimax-m2.5, openai/gpt-5-mini, openai/gpt-5.4-2026-03-05
+2026-09-05T08:49:30.901Z [canvas] host mounted at http://0.0.0.0:18789/__openclaw__/canvas/ (root /teamspace/studios/this_studio/.openclaw/canvas)
+2026-09-05T08:49:31.095Z bonjour: starting (hostname=openclaw, instance="ip-10-192-11-120 (OpenClaw)", gatewayPort=18789, minimal=true)
+2026-09-05T08:49:31.176Z [heartbeat] started
+2026-09-05T08:49:31.187Z [gateway] agent model: custom-proxy/lightning-ai/glm-5
+2026-09-05T08:49:31.192Z [gateway] listening on ws://0.0.0.0:18789 (PID 2156)
+2026-09-05T08:49:31.196Z [gateway] log file: /tmp/openclaw/openclaw-2026-09-05.log
+2026-09-05T08:49:31.230Z [ws] → event health seq=1 clients=0 presenceVersion=1 healthVersion=2
+2026-09-05T08:49:31.251Z [browser/service] Browser control service ready (profiles=2)
+2026-09-05T08:49:35.517Z [ws] ← open remoteAddr=130.211.236.75 conn=9f2b2e2b…2981
+2026-09-05T08:49:35.549Z [ws] Proxy headers detected from untrusted address. Connection will not be treated as local. Configure gateway.trustedProxies to restore local client detection behind your proxy.
+2026-09-05T08:49:35.756Z [ws] ← connect client=openclaw-control-ui version=dev mode=webchat clientId=openclaw-control-ui platform=Win32 auth=token
+2026-09-05T08:49:35.765Z [ws] webchat connected conn=9f2b2e2b-2150-43de-8fbf-0e52c1ae2981 remote=130.211.236.75 client=openclaw-control-ui webchat vdev
+2026-09-05T08:49:35.800Z [ws] → hello-ok methods=85 events=18 presence=2 stateVersion=2
+2026-09-05T08:49:35.818Z [ws] → event health seq=2 clients=1 presenceVersion=2 healthVersion=3
+2026-09-05T08:49:36.021Z [ws] ⇄ res ✓ agent.identity.get 17ms id=a180cc15…4a50
+2026-09-05T08:49:36.031Z [ws] ⇄ res ✓ agents.list 3ms id=66422423…11fd
+2026-09-05T08:49:36.049Z [ws] ⇄ res ✓ sessions.list 5ms id=599c8861…a2da
+2026-09-05T08:49:36.056Z [ws] ⇄ res ✓ node.list 17ms id=13229c06…da72
+2026-09-05T08:49:36.061Z [ws] ⇄ res ✓ device.pair.list 20ms id=6dd205f5…fb9b
+2026-09-05T08:49:36.126Z [ws] ⇄ res ✓ chat.history 86ms id=ef88dded…51a4
+2026-09-05T08:49:40.931Z [ws] ⇄ res ✓ node.list 1ms id=01d86a2a…38e6
+2026-09-05T08:49:46.102Z [ws] ⇄ res ✓ node.list 2ms id=bf8b75c8…8499
+2026-09-05T08:49:50.929Z [ws] ⇄ res ✓ node.list 1ms id=2a559417…39c1
+2026-09-05T08:49:55.929Z [ws] ⇄ res ✓ node.list 1ms id=c54c27c5…813c
+2026-09-05T08:50:00.941Z [ws] ⇄ res ✓ node.list 1ms id=693ba4b4…2cca
+2026-09-05T08:50:01.125Z [ws] → event tick seq=3 clients=1 dropIfSlow=true
+2026-09-05T08:50:05.930Z [ws] ⇄ res ✓ node.list 1ms id=c5583c48…5447
+2026-09-05T08:50:10.934Z [ws] ⇄ res ✓ node.list 1ms id=099d7141…fa88
+2026-09-05T08:50:15.928Z [ws] ⇄ res ✓ node.list 0ms id=bf34182e…8760
+2026-09-05T08:50:20.930Z [ws] ⇄ res ✓ node.list 1ms id=a6f2f3af…ee96
+2026-09-05T08:50:25.929Z [ws] ⇄ res ✓ node.list 1ms id=60f67dca…6a76
+2026-09-05T08:50:30.936Z [ws] ⇄ res ✓ node.list 1ms id=c952feab…5405
+2026-09-05T08:50:31.135Z [ws] → event tick seq=4 clients=1 dropIfSlow=true
+2026-09-05T08:50:31.139Z [ws] → event health seq=5 clients=1 presenceVersion=2 healthVersion=4
+2026-09-05T08:50:35.927Z [ws] ⇄ res ✓ node.list 1ms id=2cfc4332…c8d7
+2026-09-05T08:50:40.930Z [ws] ⇄ res ✓ node.list 1ms id=ee48b981…b95e
+2026-09-05T08:50:45.948Z [ws] ⇄ res ✓ node.list 1ms id=fcd52f91…87ab
+2026-09-05T08:50:50.936Z [ws] ⇄ res ✓ node.list 0ms id=69ef4e20…7416
+2026-09-05T08:50:55.930Z [ws] ⇄ res ✓ node.list 1ms id=07546053…0455
+2026-09-05T08:51:00.926Z [ws] ⇄ res ✓ node.list 1ms id=81a4cb2b…3da6
+2026-09-05T08:51:01.135Z [ws] → event tick seq=6 clients=1 dropIfSlow=true
+2026-09-05T08:51:05.937Z [ws] ⇄ res ✓ node.list 0ms id=e46ece39…9805
+2026-09-05T08:51:10.927Z [ws] ⇄ res ✓ node.list 0ms id=e96be5ac…3afd
+2026-09-05T08:51:15.936Z [ws] ⇄ res ✓ node.list 0ms id=b4445965…2001
+2026-09-05T08:51:20.928Z [ws] ⇄ res ✓ node.list 1ms id=e894eafd…4291
+2026-09-05T08:51:25.932Z [ws] ⇄ res ✓ node.list 0ms id=20cab51a…363f
+2026-09-05T08:51:30.928Z [ws] ⇄ res ✓ node.list 1ms id=a458ca82…2535
+2026-09-05T08:51:31.144Z [ws] → event tick seq=7 clients=1 dropIfSlow=true
+2026-09-05T08:51:31.149Z [ws] → event health seq=8 clients=1 presenceVersion=2 healthVersion=5
+2026-09-05T08:51:35.929Z [ws] ⇄ res ✓ node.list 1ms id=0988c99c…348b
+2026-09-05T08:51:40.931Z [ws] ⇄ res ✓ node.list 0ms id=ce3f4089…6b55
+2026-09-05T08:51:45.928Z [ws] ⇄ res ✓ node.list 1ms id=018d3499…ab9a
+2026-09-05T08:51:50.928Z [ws] ⇄ res ✓ node.list 1ms id=30ccc0d8…7b6d
+2026-09-05T08:51:55.935Z [ws] ⇄ res ✓ node.list 0ms id=70f79033…0d11
+2026-09-05T08:52:00.928Z [ws] ⇄ res ✓ node.list 1ms id=586e7f27…ebdc
+2026-09-05T08:52:01.144Z [ws] → event tick seq=9 clients=1 dropIfSlow=true
+2026-09-05T08:52:05.928Z [ws] ⇄ res ✓ node.list 0ms id=0327db1b…ed7e
+2026-09-05T08:52:10.956Z [ws] ⇄ res ✓ node.list 1ms id=6b10d88c…9551
+2026-09-05T08:52:15.929Z [ws] ⇄ res ✓ node.list 1ms id=dbe20271…4b7b
+2026-09-05T08:52:20.930Z [ws] ⇄ res ✓ node.list 1ms id=e574b0c7…d029
+2026-09-05T08:52:25.938Z [ws] ⇄ res ✓ node.list 2ms id=cd1e80aa…bea2
+2026-09-05T08:52:30.922Z [ws] ⇄ res ✓ node.list 1ms id=74efbc3e…0751
+2026-09-05T08:52:31.124Z [ws] → event health seq=10 clients=1 presenceVersion=2 healthVersion=6
+2026-09-05T08:52:31.145Z [ws] → event tick seq=11 clients=1 dropIfSlow=true
+2026-09-05T08:52:35.924Z [ws] ⇄ res ✓ node.list 1ms id=10bf9ab0…95ef
+2026-09-05T08:52:40.949Z [ws] ⇄ res ✓ node.list 1ms id=f97a5e52…ee9e
+2026-09-05T08:52:45.930Z [ws] ⇄ res ✓ node.list 1ms id=994f8680…f035
+2026-09-05T08:52:50.927Z [ws] ⇄ res ✓ node.list 1ms id=41479714…ec6c
+2026-09-05T08:52:55.940Z [ws] ⇄ res ✓ node.list 1ms id=06ea438e…7ee9
+2026-09-05T08:53:00.930Z [ws] ⇄ res ✓ node.list 0ms id=2467048a…ac64
+2026-09-05T08:53:01.145Z [ws] → event tick seq=12 clients=1 dropIfSlow=true
+2026-09-05T08:53:05.926Z [ws] ⇄ res ✓ node.list 1ms id=56b52848…7c38
+2026-09-05T08:53:10.934Z [ws] ⇄ res ✓ node.list 1ms id=e6014b7c…6a91
+2026-09-05T08:53:15.931Z [ws] ⇄ res ✓ node.list 1ms id=67852b33…c121
+2026-09-05T08:53:20.931Z [ws] ⇄ res ✓ node.list 1ms id=621232e0…f40a
+2026-09-05T08:53:25.922Z [ws] ⇄ res ✓ node.list 1ms id=6ebc8f35…a48a
+2026-09-05T08:53:30.939Z [ws] ⇄ res ✓ node.list 0ms id=b2e68ea5…5d63
+2026-09-05T08:53:31.137Z [ws] → event health seq=13 clients=1 presenceVersion=2 healthVersion=7
+2026-09-05T08:53:31.144Z [ws] → event tick seq=14 clients=1 dropIfSlow=true
+2026-09-05T08:53:35.941Z [ws] ⇄ res ✓ node.list 0ms id=a0c0bf04…fbe0
+2026-09-05T08:53:40.934Z [ws] ⇄ res ✓ node.list 1ms id=00c667cf…48cc
+2026-09-05T08:53:45.923Z [ws] ⇄ res ✓ node.list 0ms id=2c0ab469…4469
+2026-09-05T08:53:50.928Z [ws] ⇄ res ✓ node.list 1ms id=f4e4b41a…a039
+2026-09-05T08:53:55.936Z [ws] ⇄ res ✓ node.list 1ms id=3370f69f…8ee8
+2026-09-05T08:54:00.932Z [ws] ⇄ res ✓ node.list 0ms id=d9131c18…06c7
+2026-09-05T08:54:01.145Z [ws] → event tick seq=15 clients=1 dropIfSlow=true
+2026-09-05T08:54:05.930Z [ws] ⇄ res ✓ node.list 1ms id=ebc82b1e…f091
+2026-09-05T08:54:10.921Z [ws] ⇄ res ✓ node.list 1ms id=c6a34f4b…dcbc
+2026-09-05T08:54:15.940Z [ws] ⇄ res ✓ node.list 0ms id=ccbc2e7a…82d1
+2026-09-05T08:54:20.932Z [ws] ⇄ res ✓ node.list 1ms id=b6a8b359…d6dd
+2026-09-05T08:54:25.983Z [ws] ⇄ res ✓ node.list 1ms id=593ed2b0…2060
+2026-09-05T08:54:30.935Z [ws] ⇄ res ✓ node.list 0ms id=77906320…bd96
+2026-09-05T08:54:31.125Z [ws] → event health seq=16 clients=1 presenceVersion=2 healthVersion=8
+2026-09-05T08:54:31.145Z [ws] → event tick seq=17 clients=1 dropIfSlow=true
+2026-09-05T08:54:35.934Z [ws] ⇄ res ✓ node.list 1ms id=ce14be1f…9cdc
+2026-09-05T08:54:40.924Z [ws] ⇄ res ✓ node.list 1ms id=b5c3ed25…a2bb
+2026-09-05T08:54:45.921Z [ws] ⇄ res ✓ node.list 1ms id=0a64f59d…7f84
+2026-09-05T08:54:50.920Z [ws] ⇄ res ✓ node.list 0ms id=5aab3ae2…631d
+2026-09-05T08:54:55.922Z [ws] ⇄ res ✓ node.list 1ms id=9d433d1d…03a0
+2026-09-05T08:55:00.921Z [ws] ⇄ res ✓ node.list 0ms id=a4cfdcdc…0434
+2026-09-05T08:55:01.145Z [ws] → event tick seq=18 clients=1 dropIfSlow=true
+2026-09-05T08:55:05.942Z [ws] ⇄ res ✓ node.list 0ms id=1d46c14b…905b
+2026-09-05T08:55:10.930Z [ws] ⇄ res ✓ node.list 0ms id=dc3d8464…8284
+2026-09-05T08:55:15.938Z [ws] ⇄ res ✓ node.list 1ms id=4f7a95aa…5910
+2026-09-05T08:55:20.942Z [ws] ⇄ res ✓ node.list 1ms id=47b1282e…7d4f
+2026-09-05T08:55:25.928Z [ws] ⇄ res ✓ node.list 1ms id=d767f105…f3ca
+2026-09-05T08:55:30.930Z [ws] ⇄ res ✓ node.list 1ms id=2fd32d64…c007
+2026-09-05T08:55:31.138Z [ws] → event health seq=19 clients=1 presenceVersion=2 healthVersion=9
+2026-09-05T08:55:31.145Z [ws] → event tick seq=20 clients=1 dropIfSlow=true
+2026-09-05T08:55:35.921Z [ws] ⇄ res ✓ node.list 1ms id=76487541…4a08
+2026-09-05T08:55:40.939Z [ws] ⇄ res ✓ node.list 1ms id=91fe5b86…3655
+2026-09-05T08:55:45.930Z [ws] ⇄ res ✓ node.list 0ms id=f45b77b0…6817
+2026-09-05T08:55:50.922Z [ws] ⇄ res ✓ node.list 1ms id=198c6a61…428c
+2026-09-05T08:55:55.936Z [ws] ⇄ res ✓ node.list 1ms id=eac79f1b…cfd9
+2026-09-05T08:56:00.923Z [ws] ⇄ res ✓ node.list 1ms id=fe4e8541…c49d
+2026-09-05T08:56:01.144Z [ws] → event tick seq=21 clients=1 dropIfSlow=true
+2026-09-05T08:56:05.922Z [ws] ⇄ res ✓ node.list 1ms id=de39747a…28d7
+2026-09-05T08:56:10.928Z [ws] ⇄ res ✓ node.list 1ms id=1a306e24…5224
+2026-09-05T08:56:15.928Z [ws] ⇄ res ✓ node.list 1ms id=48a6bb18…2f17
+2026-09-05T08:56:20.925Z [ws] ⇄ res ✓ node.list 1ms id=aeddb56d…f2dd
+2026-09-05T08:56:25.929Z [ws] ⇄ res ✓ node.list 0ms id=3da20e9f…99fb
+2026-09-05T08:56:30.922Z [ws] ⇄ res ✓ node.list 0ms id=a55f96a1…887b
+2026-09-05T08:56:31.130Z [ws] → event health seq=22 clients=1 presenceVersion=2 healthVersion=10
+2026-09-05T08:56:31.144Z [ws] → event tick seq=23 clients=1 dropIfSlow=true
+2026-09-05T08:56:35.934Z [ws] ⇄ res ✓ node.list 1ms id=efa14362…06c4
+2026-09-05T08:56:40.923Z [ws] ⇄ res ✓ node.list 1ms id=b4d8c64d…d341
+2026-09-05T08:56:45.923Z [ws] ⇄ res ✓ node.list 1ms id=04832f94…dc46
+2026-09-05T08:56:50.931Z [ws] ⇄ res ✓ node.list 0ms id=3a6a1929…fa59
+2026-09-05T08:56:55.922Z [ws] ⇄ res ✓ node.list 1ms id=96cfd070…478e
+2026-09-05T08:57:00.926Z [ws] ⇄ res ✓ node.list 1ms id=6e5969da…9aa4
+2026-09-05T08:57:01.145Z [ws] → event tick seq=24 clients=1 dropIfSlow=true
+2026-09-05T08:57:05.924Z [ws] ⇄ res ✓ node.list 0ms id=64ddd8d8…ad33
+2026-09-05T08:57:10.922Z [ws] ⇄ res ✓ node.list 1ms id=6468460f…58f6
+2026-09-05T08:57:15.922Z [ws] ⇄ res ✓ node.list 0ms id=1930ca73…85ef
+2026-09-05T08:57:20.924Z [ws] ⇄ res ✓ node.list 1ms id=ff83ce24…2939
+2026-09-05T08:57:25.922Z [ws] ⇄ res ✓ node.list 1ms id=3e8bf7b3…47e1
+2026-09-05T08:57:30.919Z [ws] ⇄ res ✓ node.list 1ms id=4b95d4d5…6521
+2026-09-05T08:57:31.135Z [ws] → event health seq=25 clients=1 presenceVersion=2 healthVersion=11
+2026-09-05T08:57:31.146Z [ws] → event tick seq=26 clients=1 dropIfSlow=true
+2026-09-05T08:57:35.919Z [ws] ⇄ res ✓ node.list 1ms id=a0dcbd73…c4de
+2026-09-05T08:57:40.921Z [ws] ⇄ res ✓ node.list 1ms id=8a6e9c83…05b7
+2026-09-05T08:57:45.931Z [ws] ⇄ res ✓ node.list 0ms id=9209b022…fe8b
+2026-09-05T08:57:50.938Z [ws] ⇄ res ✓ node.list 0ms id=3bfa6c76…d0b3
+2026-09-05T08:57:55.921Z [ws] ⇄ res ✓ node.list 1ms id=0aaa1229…6176
+2026-09-05T08:58:00.923Z [ws] ⇄ res ✓ node.list 1ms id=1244bb6f…e7d8
+2026-09-05T08:58:01.146Z [ws] → event tick seq=27 clients=1 dropIfSlow=true
+2026-09-05T08:58:06.924Z [ws] ⇄ res ✓ node.list 1ms id=cf1b894b…2e56
+2026-09-05T08:58:10.923Z [ws] ⇄ res ✓ node.list 1ms id=d8d57e5c…1f14
+2026-09-05T08:58:15.944Z [ws] ⇄ res ✓ node.list 1ms id=0363cac4…db13
+2026-09-05T08:58:20.919Z [ws] ⇄ res ✓ node.list 0ms id=6a1c07bf…f7cb
+2026-09-05T08:58:25.923Z [ws] ⇄ res ✓ node.list 0ms id=9a0e5b6a…eb71
+2026-09-05T08:58:30.922Z [ws] ⇄ res ✓ node.list 1ms id=663ef74d…f83c
+2026-09-05T08:58:31.136Z [ws] → event health seq=28 clients=1 presenceVersion=2 healthVersion=12
+2026-09-05T08:58:31.145Z [ws] → event tick seq=29 clients=1 dropIfSlow=true
+2026-09-05T08:58:35.929Z [ws] ⇄ res ✓ node.list 1ms id=771e89df…03bc
+2026-09-05T08:58:40.924Z [ws] ⇄ res ✓ node.list 0ms id=75752d7a…741c
+2026-09-05T08:58:45.924Z [ws] ⇄ res ✓ node.list 1ms id=3554ee23…4fe9
+2026-09-05T08:58:50.932Z [ws] ⇄ res ✓ node.list 1ms id=4d568d99…5190
+2026-09-05T08:58:56.936Z [ws] ⇄ res ✓ node.list 0ms id=a703f3ca…d93f
+2026-09-05T08:59:00.919Z [ws] ⇄ res ✓ node.list 1ms id=2d72cae2…c180
+2026-09-05T08:59:01.146Z [ws] → event tick seq=30 clients=1 dropIfSlow=true
+2026-09-05T08:59:05.923Z [ws] ⇄ res ✓ node.list 1ms id=fad5eb90…3bb0
+2026-09-05T08:59:10.923Z [ws] ⇄ res ✓ node.list 1ms id=d311fccb…0b3e
+2026-09-05T08:59:15.956Z [ws] ⇄ res ✓ node.list 0ms id=f58ecba7…70a3
+2026-09-05T08:59:20.920Z [ws] ⇄ res ✓ node.list 1ms id=4633316a…1b3a
+2026-09-05T08:59:26.018Z [ws] ⇄ res ✓ node.list 0ms id=0c323612…ef57
+2026-09-05T08:59:30.922Z [ws] ⇄ res ✓ node.list 1ms id=f13b7f0b…41bd
+2026-09-05T08:59:31.136Z [ws] → event health seq=31 clients=1 presenceVersion=2 healthVersion=13
+2026-09-05T08:59:31.146Z [ws] → event tick seq=32 clients=1 dropIfSlow=true
+2026-09-05T08:59:35.919Z [ws] ⇄ res ✓ node.list 1ms id=caf2bfdd…6559
+2026-09-05T08:59:40.937Z [ws] ⇄ res ✓ node.list 1ms id=78f7528b…665e
+2026-09-05T08:59:45.930Z [ws] ⇄ res ✓ node.list 1ms id=60050d2f…eda8
+2026-09-05T08:59:50.921Z [ws] ⇄ res ✓ node.list 1ms id=a5b75261…5c9e
+2026-09-05T08:59:55.951Z [ws] ⇄ res ✓ node.list 1ms id=9c6f4500…5729
+2026-09-05T09:00:00.918Z [ws] ⇄ res ✓ node.list 1ms id=a5ff397f…e0d3
+2026-09-05T09:00:01.146Z [ws] → event tick seq=33 clients=1 dropIfSlow=true
+2026-09-05T09:00:05.921Z [ws] ⇄ res ✓ node.list 1ms id=64586e4b…3039
+2026-09-05T09:00:10.923Z [ws] ⇄ res ✓ node.list 1ms id=18fa7cf8…f0eb
+2026-09-05T09:00:15.927Z [ws] ⇄ res ✓ node.list 1ms id=cbb8ed6e…994b
+2026-09-05T09:00:20.926Z [ws] ⇄ res ✓ node.list 0ms id=384d3970…fe8e
+2026-09-05T09:00:25.919Z [ws] ⇄ res ✓ node.list 1ms id=54b6b450…62b5
+2026-09-05T09:00:30.922Z [ws] ⇄ res ✓ node.list 1ms id=fa878b7b…b0a7
+2026-09-05T09:00:31.137Z [ws] → event health seq=34 clients=1 presenceVersion=2 healthVersion=14
+2026-09-05T09:00:31.146Z [ws] → event tick seq=35 clients=1 dropIfSlow=true
+2026-09-05T09:00:35.921Z [ws] ⇄ res ✓ node.list 0ms id=62d59b69…f579
+2026-09-05T09:00:40.920Z [ws] ⇄ res ✓ node.list 1ms id=c96d5067…c665
+2026-09-05T09:00:45.922Z [ws] ⇄ res ✓ node.list 1ms id=f87f9c9a…2c46
+2026-09-05T09:00:50.917Z [ws] ⇄ res ✓ node.list 1ms id=5a7f95b9…edef
+2026-09-05T09:00:55.917Z [ws] ⇄ res ✓ node.list 0ms id=0d4f8a46…8579
+2026-09-05T09:01:00.922Z [ws] ⇄ res ✓ node.list 1ms id=7778dede…d88b
+2026-09-05T09:01:01.146Z [ws] → event tick seq=36 clients=1 dropIfSlow=true
+2026-09-05T09:01:05.938Z [ws] ⇄ res ✓ node.list 0ms id=e9776280…da80
+2026-09-05T09:01:10.917Z [ws] ⇄ res ✓ node.list 1ms id=4c49a9c4…7ac6
+2026-09-05T09:01:15.923Z [ws] ⇄ res ✓ node.list 1ms id=15d5beb7…c484
+2026-09-05T09:01:20.994Z [ws] ⇄ res ✓ node.list 0ms id=0d3111d7…74b1
+2026-09-05T09:01:25.920Z [ws] ⇄ res ✓ node.list 1ms id=6ff9c34e…2a69
+2026-09-05T09:01:30.919Z [ws] ⇄ res ✓ node.list 1ms id=59fc0517…8885
+2026-09-05T09:01:31.134Z [ws] → event health seq=37 clients=1 presenceVersion=2 healthVersion=15
+2026-09-05T09:01:31.146Z [ws] → event tick seq=38 clients=1 dropIfSlow=true
+2026-09-05T09:01:35.923Z [ws] ⇄ res ✓ node.list 0ms id=43fb08e4…4d86
+2026-09-05T09:01:40.921Z [ws] ⇄ res ✓ node.list 0ms id=ef6b29cd…164a
+2026-09-05T09:01:45.919Z [ws] ⇄ res ✓ node.list 1ms id=af1bcc23…3374
+2026-09-05T09:01:50.921Z [ws] ⇄ res ✓ node.list 1ms id=de7e1e00…095d
+2026-09-05T09:01:55.931Z [ws] ⇄ res ✓ node.list 1ms id=8ac12b43…e3d5
+2026-09-05T09:02:00.924Z [ws] ⇄ res ✓ node.list 1ms id=dd5f700f…26da
+2026-09-05T09:02:01.147Z [ws] → event tick seq=39 clients=1 dropIfSlow=true
+2026-09-05T09:02:05.920Z [ws] ⇄ res ✓ node.list 1ms id=29681b71…20ff
+2026-09-05T09:02:10.920Z [ws] ⇄ res ✓ node.list 0ms id=e66813ec…0e2c
+2026-09-05T09:02:15.922Z [ws] ⇄ res ✓ node.list 1ms id=b6704746…06df
+2026-09-05T09:02:21.919Z [ws] ⇄ res ✓ node.list 1ms id=2fa18065…b284

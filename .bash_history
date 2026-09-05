@@ -19,3 +19,6 @@ git commit -m "start"
 git push -u origin main
 git push -u origin main
 git push -u origin main
+git add .
+git commit -m "update fun"
+git push
