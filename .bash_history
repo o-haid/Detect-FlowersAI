@@ -22,3 +22,6 @@ git push -u origin main
 git add .
 git commit -m "update fun"
 git push
+git add .
+git commit -m "plans: testdataset and split valid? Choose nn"
+git push
