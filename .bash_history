@@ -32,3 +32,5 @@ git rm -r --cached oxford_102/flower_data
 git add .gitignore
 git commit -m 'delete data'
 git push
+git commit -am 'Save current progress'
+git rm -r --cached
