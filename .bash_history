@@ -25,3 +25,10 @@ git push
 git add .
 git commit -m "plans: testdataset and split valid? Choose nn"
 git push
+git add .
+git commit -m "file manage + work on documentation for test dataset"
+git push
+git rm -r --cached oxford_102/flower_data
+git add .gitignore
+git commit -m 'delete data'
+git push

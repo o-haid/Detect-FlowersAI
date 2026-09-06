@@ -2,3 +2,7 @@ data/
 .cache/
 .openclaw/
 oxford_102/flower_data/
+oxford_102/documentation/segmim
+oxford_102/documentation/102segmentations.tgz
+oxford_102/documentation/imagelabels.mat
+oxford_102/documentation/setid.mat
